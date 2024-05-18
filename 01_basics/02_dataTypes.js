@@ -2,4 +2,6 @@
 
 //alert (3+5) // we are using nodejs , not browser
 
-console.log(6+8)
+console.log(6+8);
+
+console.log("Hitesh")
