@@ -28,8 +28,8 @@ let myObj = {
     age  : 21
 }
 
-const myFunction = function(){
-    console.log("Hello World");
-}
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
 
-console.log(typeof outsideTemp)
+// console.log(typeof outsideTemp)
