@@ -10,3 +10,5 @@ accountPassword = "21212121"
 accountCity="Benguluru"
 
 console.log(accountId);
+console.log(accountEmail)
+console.table([accountId,accountEmail,accountPassword,accountCity])
