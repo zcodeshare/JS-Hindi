@@ -35,3 +35,35 @@ function loginUserMessage(username){
 
 
 //console.log(loginUserMessage(""))
+
+function calculateCarPractice(...num1){
+    return num1
+}
+
+//console.log(calculateCarPractice(200,300,400,123,456,654,678))
+
+const user = {
+    username : "jitendar",
+    price:199
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and prince is ${anyObject.price}`);
+}
+
+//handleObject(user)
+
+handleObject({
+    username : "sam",
+    price : 343
+})
+
+const mtyNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+//console.log(returnSecondValue(mtyNewArray));
+
+console.log(returnSecondValue([200,400,500,1000]))
